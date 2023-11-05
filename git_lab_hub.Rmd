@@ -1,6 +1,6 @@
 # Using Gitlab/Github
 
-## Workflow
+## Workflow (copied from *Git Pro*)
 
 ### Integration-Manager Workflow
 

@@ -4,7 +4,7 @@ important-concepts
 tools
 branching
 using-gitlabgithub
-workflow
+workflow-copied-from-git-pro
 integration-manager-workflow
 centralized-workflow
 dictator-and-lieutenants-workflow
