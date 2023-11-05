@@ -4,6 +4,9 @@ new_session: yes
 rmd_files: [
   "index.Rmd",
   "GettingStarted.Rmd",
+  "branch.Rmd",
+  "git_lab_hub.Rmd",
+  "appendix.Rmd"
 
 
 
