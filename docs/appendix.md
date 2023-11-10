@@ -52,7 +52,9 @@ git checkout main
 git merge new_branch_name
 
 # working with remote
-git remote -va
+git remote ## show remote server name---almost sure is "origin"
+git remote -v ## show remote detail
+git remote show origin # inspecting remote origin
 
 # push
 git push -u origin main
