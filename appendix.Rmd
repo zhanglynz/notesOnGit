@@ -50,6 +50,9 @@ git branch -a
 git checkout main
 git merge new_branch_name
 
+git branch --merged # finding branches merged
+git branch --no-merged # finding branches not merged
+
 # working with remote
 git remote ## show remote server name---almost sure is "origin"
 git remote -v ## show remote detail
@@ -60,6 +63,8 @@ git push -u origin main
 ## or
 git push -u origin master
 
+git push --set-upstream origin new_local_b ## push a new local branch
+git push origin --delete new_local_b ## delete a remote branch
 ```
 
 

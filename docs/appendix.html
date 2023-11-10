@@ -222,15 +222,21 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-45"><a href="appendix.html#cb1-45" aria-hidden="true" tabindex="-1"></a>git checkout main</span>
 <span id="cb1-46"><a href="appendix.html#cb1-46" aria-hidden="true" tabindex="-1"></a>git merge new_branch_name</span>
 <span id="cb1-47"><a href="appendix.html#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-48"><a href="appendix.html#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="co"># working with remote</span></span>
-<span id="cb1-49"><a href="appendix.html#cb1-49" aria-hidden="true" tabindex="-1"></a>git remote <span class="do">## show remote server name---almost sure is &quot;origin&quot;</span></span>
-<span id="cb1-50"><a href="appendix.html#cb1-50" aria-hidden="true" tabindex="-1"></a>git remote <span class="sc">-</span>v <span class="do">## show remote detail</span></span>
-<span id="cb1-51"><a href="appendix.html#cb1-51" aria-hidden="true" tabindex="-1"></a>git remote show origin <span class="co"># inspecting remote origin</span></span>
-<span id="cb1-52"><a href="appendix.html#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-53"><a href="appendix.html#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="co"># push</span></span>
-<span id="cb1-54"><a href="appendix.html#cb1-54" aria-hidden="true" tabindex="-1"></a>git push <span class="sc">-</span>u origin main</span>
-<span id="cb1-55"><a href="appendix.html#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="do">## or</span></span>
-<span id="cb1-56"><a href="appendix.html#cb1-56" aria-hidden="true" tabindex="-1"></a>git push <span class="sc">-</span>u origin master</span></code></pre></div>
+<span id="cb1-48"><a href="appendix.html#cb1-48" aria-hidden="true" tabindex="-1"></a>git branch <span class="sc">--</span>merged <span class="co"># finding branches merged</span></span>
+<span id="cb1-49"><a href="appendix.html#cb1-49" aria-hidden="true" tabindex="-1"></a>git branch <span class="sc">--</span>no<span class="sc">-</span>merged <span class="co"># finding branches not merged</span></span>
+<span id="cb1-50"><a href="appendix.html#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="appendix.html#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="co"># working with remote</span></span>
+<span id="cb1-52"><a href="appendix.html#cb1-52" aria-hidden="true" tabindex="-1"></a>git remote <span class="do">## show remote server name---almost sure is &quot;origin&quot;</span></span>
+<span id="cb1-53"><a href="appendix.html#cb1-53" aria-hidden="true" tabindex="-1"></a>git remote <span class="sc">-</span>v <span class="do">## show remote detail</span></span>
+<span id="cb1-54"><a href="appendix.html#cb1-54" aria-hidden="true" tabindex="-1"></a>git remote show origin <span class="co"># inspecting remote origin</span></span>
+<span id="cb1-55"><a href="appendix.html#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="appendix.html#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="co"># push</span></span>
+<span id="cb1-57"><a href="appendix.html#cb1-57" aria-hidden="true" tabindex="-1"></a>git push <span class="sc">-</span>u origin main</span>
+<span id="cb1-58"><a href="appendix.html#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="do">## or</span></span>
+<span id="cb1-59"><a href="appendix.html#cb1-59" aria-hidden="true" tabindex="-1"></a>git push <span class="sc">-</span>u origin master</span>
+<span id="cb1-60"><a href="appendix.html#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-61"><a href="appendix.html#cb1-61" aria-hidden="true" tabindex="-1"></a>git push <span class="sc">--</span>set<span class="sc">-</span>upstream origin new_local_b <span class="do">## push a new local branch</span></span>
+<span id="cb1-62"><a href="appendix.html#cb1-62" aria-hidden="true" tabindex="-1"></a>git push origin <span class="sc">--</span>delete new_local_b <span class="do">## delete a remote branch</span></span></code></pre></div>
 </div>
 <div id="gitignore-example" class="section level2 unnumbered hasAnchor">
 <h2>.gitignore example<a href="appendix.html#gitignore-example" class="anchor-section" aria-label="Anchor link to header"></a></h2>
