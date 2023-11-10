@@ -33,8 +33,8 @@ git commit -m "initial commit"
 git status
 
 # remove
-git rm -f file_name # stopping tracking and delete the file
-git rm --cached file_name # stopping tracking but keep the file
+git rm -f file_name ## stopping tracking and delete the file
+git rm --cached file_name ## stopping tracking but keep the file
 
 # move
 git mv file_from file_to
@@ -51,13 +51,13 @@ git branch -a
 git checkout main
 git merge new_branch_name
 
-git branch --merged # finding branches merged
-git branch --no-merged # finding branches not merged
+git branch --merged ## finding branches merged
+git branch --no-merged ## finding branches not merged
 
 # working with remote
 git remote ## show remote server name---almost sure is "origin"
 git remote -v ## show remote detail
-git remote show origin # inspecting remote origin
+git remote show origin ## inspecting remote origin
 
 # push
 git push -u origin main
