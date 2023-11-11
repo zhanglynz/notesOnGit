@@ -27,7 +27,7 @@ git add . ## all files under the directory
 
 # commit
 git commit -m "initial commit"
-
+git commit -a -m "intial commit" ## add plus commit
 
 # checking status
 git status
@@ -49,9 +49,10 @@ git checkout new_branch_name
 ## or
 git checkout -b new_branch_name
 
+git branch ## local branches
+git branch -v ## local branches' details
+git branch -vv ## more local branches' details
 git branch -a ## finding all branches
-git branch -v ## branches' details
-git branch -vv ## more branches' details
 
 # merge
 git branch -a
@@ -60,15 +61,17 @@ git merge new_branch_name
 
 git branch --merged ## finding branches merged
 git branch --no-merged ## finding branches not merged
+git branch -d a_branch ## delete a_branch at local
+
 
 
 # working with remote
-git remote ## show remote server name---almost sure is "origin"
-git remote -v ## show remote detail
+git remote ## show shortnames of each remote handle---almost sure is "origin"
+git remote -v ## show remote url
 git remote show origin ## inspecting remote origin
 
 # fetch and pull
-git fetch
+git fetch origin
 git pull 
 
 # push
