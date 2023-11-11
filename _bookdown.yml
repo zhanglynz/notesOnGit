@@ -6,6 +6,7 @@ rmd_files: [
   "GettingStarted.Rmd",
   "branch.Rmd",
   "git_lab_hub.Rmd",
+  "refs.Rmd",
   "appendix.Rmd"
 
 
