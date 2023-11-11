@@ -3,6 +3,11 @@ big-picture
 important-concepts
 tools
 branching
+create-a-new-branch
+get-a-new-branch-from-remote
+merge-a-branch-to-main
+delete-a-local-branch
+delete-a-remote-branch
 using-gitlabgithub
 workflow-copied-from-git-pro
 integration-manager-workflow
